@@ -2,13 +2,13 @@
 pkg update && pkg upgrade   
 pkg install git python   
 pip install cython   
-rm -rf doge   
-git clone https://github.com/dappearls/doge
+rm -rf Trial-Prem   
+git clone https://github.com/NaldiFanxmoody/Trial-Prem
 
-# Cara Install Bahan Tools
-cd doge   
+# Install Bahan Tools
+cd Trial-Prem   
 git pull   
 pip install -r requirements.txt   
 
 # Cara Menjalankan Tools
-python run.py
+python run_gacor.py
